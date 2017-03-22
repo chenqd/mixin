@@ -1,0 +1,18 @@
+{
+    "name": "chenqd/mixin",
+    "description": "mixin for php",
+    "authors": [
+        {
+            "name": "asmodai",
+            "email": "a19851234@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "chenqd\\mixin\\": "" }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/container": "5.0 - 5.3 || >=5.4.16",
+        "illuminate/support": ">=5"
+    }
+}
