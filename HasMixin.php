@@ -32,7 +32,7 @@ Trait HasMixin
                 $params = $settings;
             } else {
                 $class = $settings;
-                $params = [$this];
+                $params = ['entity' => $this];
             }
             $container = Container::getInstance();
             if (method_exists($container, 'makeWith')) {
